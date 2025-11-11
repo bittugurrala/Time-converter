@@ -41,7 +41,7 @@ Time-Converter/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. Enter the number of **hours** and **minutes**.
 2. Click the **Convert into seconds!** button.
@@ -52,7 +52,7 @@ Time-Converter/
 
 ---
 
-## 🧠 Example Calculation
+## Example Calculation
 
 | Hours | Minutes | Result (in seconds) |
 |--------|----------|--------------------|
@@ -62,7 +62,7 @@ Time-Converter/
 
 ---
 
-## 🎨 Theme Colors
+## Theme Colors
 
 | Element | Color | Hex Code |
 |----------|--------|----------|
@@ -72,7 +72,7 @@ Time-Converter/
 
 ---
 
-## 🧰 Future Enhancements
+## Future Enhancements
 
 - Add real-time validation while typing  
 - Include support for converting **seconds → hours & minutes**  
