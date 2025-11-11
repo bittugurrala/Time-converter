@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to right, #5C1DC5, #3858E2, #3E78F4);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+.container{
+    /* border: 2px solid black; */
+    background: linear-gradient(to right,#3858E2, #867BE2 );
+    /* backdrop-filter: blur(10px); */
+    width: 1000px;
+    border-radius: 20px;
+
+
+}
+
+}
+.heading{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.hours-label{
+    display: inline;
+}
+.min-label{
+    display: inline;
+}
+
+.hours-class{
+    width: 735px;
+}
+.min-class{
+    width: 735px;
+}
+.para-class{
+    font-size: 20px;
+}
