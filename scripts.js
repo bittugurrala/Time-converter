@@ -10,7 +10,6 @@ button.addEventListener("click", function () {
 
     let hasError = false; // Track errors
 
-    // Validate Hours
     if (isNaN(hours) || document.getElementById("hours").value.trim() === "") {
         hour_error.textContent = "* This field is required";
         hour_error.style.color = "#E24B5A";
@@ -24,7 +23,6 @@ button.addEventListener("click", function () {
         hasError = true;
     }
 
-    // Validate Minutes
     if (isNaN(min) || document.getElementById("minutes").value.trim() === "") {
         min_error.textContent = "* This field is required";
         min_error.style.color = "#E24B5A";
@@ -41,7 +39,6 @@ button.addEventListener("click", function () {
     // Stop execution if there’s any error
     if (hasError) return;
 
-    // Perform conversion
     let value = (hours * 3600) + (min * 60);
     sec.textContent = `⏱️ Time in seconds: ${value}`;
 });
